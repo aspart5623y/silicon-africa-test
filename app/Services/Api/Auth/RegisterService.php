@@ -3,8 +3,8 @@ namespace App\Services\Api\Auth;
 
 use App\Models\User;
 use App\Models\Profile;
-use App\Repositories\Api\Admin\UserRepository;
-use App\Repositories\Api\Admin\ProfileRepository;
+use App\Repositories\Api\UserRepository;
+use App\Repositories\Api\ProfileRepository;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 
